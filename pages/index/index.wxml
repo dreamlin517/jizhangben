@@ -1,0 +1,5 @@
+<view class="title">
+i love {{message}}
+</view>
+
+<button type="primary" bindtap="handleChangePeople">换个人</button>
