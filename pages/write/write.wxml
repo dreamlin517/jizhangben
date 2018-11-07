@@ -1,0 +1,22 @@
+<view class='write'>
+  <view class='top'>
+    <view class='option'>
+      <button class='one'>支出</button>
+      <button class='two'>收入</button>
+    </view>
+    <view class='money'>
+      <text>吃喝</text>
+      <text class='mon'>0.00</text>
+    </view>
+  </view>
+  <view class='middle'>
+    <view class="group">
+      <block wx:for="{{iconType}}">
+        <icon type="{{item}}" size="40" />
+      </block>
+    </view>
+
+
+  </view>
+  <view class='buttom'></view>
+</view>

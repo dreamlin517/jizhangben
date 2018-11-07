@@ -1,1 +1,2 @@
-<view>我是测试页面</view>
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>

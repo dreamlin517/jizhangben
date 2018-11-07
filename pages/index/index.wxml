@@ -1,5 +1,45 @@
-<view class="title">
-i love {{message}}
+<view class='frist'>
+  <view class='title'>
+      <view class='top'>
+        <view class='name'>水水壶的账本</view>
+        <view class='share'>共享账本</view>
+      </view> 
+    <view class='middle'>
+      <view class='money'>0.00</view>
+      <view class='explain'>11月支出</view>
+    </view>
+    <view class='bot'>
+      <text>11月收入：0.00</text>
+      <text>11月支出：0.00</text>
+      <text>11月结余：0.00</text>
+    </view>
+  </view>
+  <view class='detail'>
+    <button bindtap="handleGoWrite" class='butt'>记一笔</button>
+    <scroll-view class='runing'>
+      <view class='de'>
+        吃早餐： -12.00   
+        <text class='menthod'> 支付宝</text>   
+      </view>
+       <view class='de'>
+        吃早餐： -12.00   
+        <text class='menthod'> 支付宝</text>   
+      </view>
+       <view class='de'>
+        吃早餐： -12.00   
+        <text class='menthod'> 支付宝</text>   
+      </view>
+       <view class='de'>
+        吃早餐： -12.00   
+        <text class='menthod'> 支付宝</text>   
+      </view>
+       <view class='de'>
+        吃早餐： -12.00   
+        <text class='menthod'> 支付宝</text>   
+      </view>
+     
+    </scroll-view>
+  </view>
 </view>
 
-<button type="primary" bindtap="handleChangePeople">换个人</button>
+

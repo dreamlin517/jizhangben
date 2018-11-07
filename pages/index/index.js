@@ -4,13 +4,14 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
-    message: 'dkvirus'
+  
+  
+  data:{
+    
   },
-
-  handleChangePeople: function () {
-    console.log(this.data.message)
-
-    this.setData({ message: 'xxx' })
+  handleGoWrite: function () {
+    wx.navigateTo({
+      url: '../write/write' 
+    })
   }
 })

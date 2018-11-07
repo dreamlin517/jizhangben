@@ -1,0 +1,49 @@
+/* pages/write/write.wxss */
+.write{
+  height: 100vh;
+  background-color: #d5f0f763;
+}
+.top{
+  height: 25vh;
+  border-bottom: 3rpx solid rgb(196, 194, 194);
+}
+.option{
+  padding:35rpx; 
+  border: 1rpx solid red;
+  text-align: center;
+}
+.one{
+  height: 55rpx;
+  display: inline-block;
+  font-size: 40rpx;
+  line-height: 55rpx;
+  background-color: rgb(240, 240, 10)
+}
+.two{
+  height: 55rpx;
+  display: inline-block;
+  font-size: 40rpx;
+  line-height: 55rpx;
+  background-color: white;
+}
+.money{
+  padding: 45rpx 30rpx 3rpx 30rpx;
+  border: 1rpx solid red;
+  font-size: 45rpx;
+  height: 110rpx;
+}
+.mon{
+  float: right;
+}
+
+
+.middle{
+  height: 40vh;
+  border-bottom: 3rpx solid rgb(196, 194, 194);
+}
+.group{
+  padding: 15rpx;
+}
+.buttom{
+  height: 35vh;
+}

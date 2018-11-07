@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/write/write"
+  ],
+  "window": {
+    "backgroundColor": "#F3F3F3",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "记一笔",
+    "navigationBarTextStyle": "dark"
+  }
+  
+}

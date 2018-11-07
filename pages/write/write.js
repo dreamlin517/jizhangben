@@ -1,11 +1,17 @@
-// pages/test/test.js
+// pages/write/write.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    iconSize: [50, 50, 50, 50, 50, 50],
+    iconColor: [
+      'red', 'orange', 'yellow', 'green', 'rgb(0,255,255)', 'blue', 'purple'
+    ],
+    iconType: [
+      'success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'
+    ]
   },
 
   /**
