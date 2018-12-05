@@ -5,18 +5,79 @@
       <button class='two'>收入</button>
     </view>
     <view class='money'>
-      <text>吃喝</text>
+      <image class='eat-icon' src="../../images/icon_sanjiaoxing.png"></image>
+      <text class='chihe'>吃喝</text>
       <text class='mon'>0.00</text>
     </view>
   </view>
   <view class='middle'>
-    <view class="group">
-      <block wx:for="{{iconType}}">
-        <icon type="{{item}}" size="40" />
-      </block>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
     </view>
-
-
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
+    <view class='icons'>
+      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    </view>
   </view>
-  <view class='buttom'></view>
+  <view class='buttom'>
+    <view class='botton-top'>
+      <button class='zhanghh'>账户</button>
+      <button class='beizhu'>备注</button>
+    </view>
+    <view class='bottom-bottom'>
+      <view class='number'>
+        <view class='sever'>7</view>
+        <view class='sever'>8</view>
+        <view class='number-one'>9</view>
+        <view class='sever'>6</view>
+        <view class='sever'>5</view>
+        <view class='number-one'>4</view>
+        <view class='sever'>3</view>
+        <view class='sever'>2</view>
+        <view class='number-one'>1</view>
+        <view class='sever'>0</view>
+        <view class='sever'>.</view>
+        <view class='number-one'>清空</view>
+      </view>
+      <view class='caozuo'>
+        <view class='delete'>删除</view>
+        <view class='sure'>确定</view>
+      </view>
+    </view>
+  </view>
 </view>

@@ -1,12 +1,15 @@
 <view class='frist'>
   <view class='title'>
-      <view class='top'>
-        <view class='name'>水水壶的账本</view>
-        <view class='share'>共享账本</view>
-      </view> 
+    <view class='top'>
+      <view class='name'>水水壶的账本</view>
+      <view class='share'>共享账本</view>
+    </view>
     <view class='middle'>
       <view class='money'>0.00</view>
-      <view class='explain'>11月支出</view>
+      <view class='explain'>
+        <view>11月支出</view>
+        <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+      </view>
     </view>
     <view class='bot'>
       <text>11月收入：0.00</text>
@@ -14,32 +17,76 @@
       <text>11月结余：0.00</text>
     </view>
   </view>
+
   <view class='detail'>
     <button bindtap="handleGoWrite" class='butt'>记一笔</button>
-    <scroll-view class='runing'>
+    <view class='runing'>
       <view class='de'>
-        吃早餐： -12.00   
-        <text class='menthod'> 支付宝</text>   
+        <view class='time'>
+          <text class='de-left'>11月7日</text>
+          <text class='de-right'>支出：108</text>
+        </view>
+        <view class='thing'>
+          <view class='thing-left'>
+            <image class='veg-icon' src="../../images/icon_sanjiaoxing.png"></image>
+          </view>
+          <view class='thing-middle'>
+           <view class='middle-left'>
+             <view class='thing-top'>买菜</view>
+            <text class='thing-bottom'>今天买菜花了50</text>
+           </view>
+          </view>
+          <view class='thing-right'>
+            50
+          </view>
+        </view>
+        <view class='thing'>
+          <view class='thing-left'>
+            <image class='veg-icon' src="../../images/icon_sanjiaoxing.png"></image>
+          </view>
+          <view class='thing-middle'>
+           <view class='middle-left'>
+             <view class='thing-top'>买菜</view>
+            <text class='thing-bottom'>今天买菜花了50</text>
+           </view>
+          </view>
+          <view class='thing-right'>
+            50
+          </view>
+        </view>
+        <view class='time'>
+          <text class='de-left'>11月8日</text>
+          <text class='de-right'>支出：88</text>
+        </view>
+         <view class='thing'>
+          <view class='thing-left'>
+            <image class='veg-icon' src="../../images/icon_sanjiaoxing.png"></image>
+          </view>
+          <view class='thing-middle'>
+           <view class='middle-left'>
+             <view class='thing-top'>买菜</view>
+            <text class='thing-bottom'>今天买菜花了50</text>
+           </view>
+          </view>
+          <view class='thing-right'>
+            50
+          </view>
+        </view>
+        <view class='thing'>
+          <view class='thing-left'>
+            <image class='veg-icon' src="../../images/icon_sanjiaoxing.png"></image>
+          </view>
+          <view class='thing-middle'>
+           <view class='middle-left'>
+             <view class='thing-top'>买菜</view>
+            <text class='thing-bottom'>今天买菜花了50</text>
+           </view>
+          </view>
+          <view class='thing-right'>
+            50
+          </view>
+        </view>
       </view>
-       <view class='de'>
-        吃早餐： -12.00   
-        <text class='menthod'> 支付宝</text>   
-      </view>
-       <view class='de'>
-        吃早餐： -12.00   
-        <text class='menthod'> 支付宝</text>   
-      </view>
-       <view class='de'>
-        吃早餐： -12.00   
-        <text class='menthod'> 支付宝</text>   
-      </view>
-       <view class='de'>
-        吃早餐： -12.00   
-        <text class='menthod'> 支付宝</text>   
-      </view>
-     
-    </scroll-view>
+    </view>
   </view>
 </view>
-
-

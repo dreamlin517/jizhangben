@@ -4,12 +4,11 @@
   background-color: #d5f0f763;
 }
 .top{
-  height: 25vh;
-  border-bottom: 3rpx solid rgb(196, 194, 194);
+  height: 18vh;
+  border-bottom: 1rpx solid rgb(196, 194, 194);
 }
 .option{
   padding:35rpx; 
-  border: 1rpx solid red;
   text-align: center;
 }
 .one{
@@ -27,23 +26,135 @@
   background-color: white;
 }
 .money{
-  padding: 45rpx 30rpx 3rpx 30rpx;
-  border: 1rpx solid red;
+ padding: 0 15rpx;
   font-size: 45rpx;
-  height: 110rpx;
+  height: 60rpx;
 }
+.eat-icon{
+  height: 40rpx;
+  width: 40rpx;
+}
+.chihe{
+  padding-left:20rpx; 
+}
+
 .mon{
   float: right;
 }
 
-
 .middle{
   height: 40vh;
-  border-bottom: 3rpx solid rgb(196, 194, 194);
+  border-bottom:1rpx solid rgb(196, 194, 194);
 }
-.group{
+.icons{
+  height: 33%;
+  width: 20%;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 160rpx;
   padding: 15rpx;
+  float: left;
 }
+.select{
+  height: 40rpx;
+  width: 40rpx;
+  
+}
+
 .buttom{
-  height: 35vh;
+  height: 42vh;
+
+}
+.botton-top{
+  display: flex;
+  height: 15%;
+  padding-top:2rpx; 
+  padding-bottom:2rpx;   
+  box-sizing: border-box;
+  justify-content: space-between;
+
+
+}
+.zhanghh{
+  height: 100%;
+  width: 25%;
+  font-size: 40rpx;
+  line-height: 6vh;
+  margin: 0rpx;
+
+}
+.beizhu{
+  height: 100%;
+  width: 30%;
+  font-size: 40rpx;
+  line-height: 6vh;
+  margin: 0rpx;
+}
+.bottom-bottom{
+  border: 1rpx solid rgb(32, 26, 26);
+  height: 85%;
+  width: 100%;
+  box-sizing: border-box;
+   
+}
+.number{
+  width: 75%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+}
+.sever{
+  height: 25%;
+  width: 33%;
+  box-sizing: border-box;
+  border-right: 0.5rpx solid white;
+  border-bottom: 0.5rpx solid white;
+  text-align: center;
+  font-size: 60rpx;
+  color: white;
+  background-color: #303030;
+  line-height: 90rpx;
+  float: left;
+}
+.number-one{
+  height: 25%;
+  width: 34%;
+  box-sizing: border-box;
+  border-bottom: 0.5rpx solid white;
+  text-align: center;
+  font-size: 60rpx;
+  color: white;
+  background-color: #303030;
+  line-height: 90rpx;
+  float: left;
+}
+.caozuo{
+  width: 25%;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+.delete{
+  color: white;
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  border-left: 0.5rpx solid white;
+  border-bottom: 0.5rpx solid white;
+  background:  #303030;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 60rpx;
+}
+.sure{
+  color: white;
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  border-left: 0.5rpx solid white;
+  border-bottom: 0.5rpx solid white;
+  background:  #303030;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 60rpx;
 }

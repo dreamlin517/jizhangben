@@ -1,72 +1,155 @@
-.frist{
-  height: 100vh;
+.frist {
+  height: 100%;
   background-image: url(https://www.yangmenglin.com/images/bg.jpeg);
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .title {
   color: rgb(0, 0, 0);
   height: 40vh;
 }
-.top{
+
+.top {
   display: flex;
-  padding: 45rpx 30rpx 34rpx 45rpx ;
+  padding: 45rpx 30rpx 34rpx 45rpx;
   color: white;
 }
-.name{
+
+.name {
   font-size: 45rpx;
-  width:70%;
-  line-height:45rpx;
+  width: 70%;
+  line-height: 45rpx;
 }
-.share{
-  width:25%;
+
+.share {
+  width: 25%;
   border-radius: 35rpx;
   font-size: 32rpx;
   text-align: center;
   border: 1.5rpx solid white;
   line-height: 45rpx;
 }
-.middle{
+
+.middle {
   height: 45%;
-  margin-top:15rpx; 
+  margin-top: 15rpx;
   color: white;
   padding-left: 45rpx;
 }
-.money{
+
+.money {
   height: 65%;
   font-size: 98rpx;
 }
-.explain{
+
+.explain {
   font-size: 35rpx;
+  display: flex;
+  align-items: center;
 }
-.bot{
+
+.select {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+
+.bot {
   color: white;
   font-size: 30rpx;
   margin-top: 25rpx;
 }
-.bot>text{
+
+.bot>text {
   padding: 0 20rpx;
 }
-.detail{
+
+.detail {
   height: 60vh;
-  }
-.butt{
-  color:#bdc008;
+}
+
+.butt {
+  color: #bdc008;
   background: #f3f1efd3;
   font-size: 45rpx;
   height: 12vh;
   line-height: 120rpx;
   width: 85%;
 }
-.runing{
-  height: 87vh;
+
+.de {
+  color: #2a5468;
 }
-.de{
-  color:#2a5468;
-  padding:15rpx;
-  padding-right:75rpx;
-  padding-left:75rpx; 
+
+.time {
+  height: 45rpx;
+  margin: 15rpx 0;
+  background: rgb(240, 240, 240);
+  margin-bottom: 0rpx;
 }
-.menthod{
+
+.de-left {
+  font-size: 30rpx;
+  padding: 0 30rpx;
+  height: 100%;
+  line-height: 45rpx;
+  float: left;
+}
+
+.de-right {
+  font-size: 30rpx;
+  padding: 0 20rpx;
+  height: 100%;
+  line-height: 45rpx;
+  float: right;
+}
+
+.thing {
+  height: 120rpx;
+}
+
+.thing-left {
+  height: 100%;
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 15rpx;
+  text-align: center;
+  line-height: 120rpx;
+}
+
+.veg-icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.thing-middle {
+  float: left;
+  height: 100%;
+  width: 65%;
+  border-bottom: 0.5rpx solid #cac9c9;
+}
+
+.thing-top {
+  padding: 10rpx;
+  color:black;
+  margin: 0rpx;
+}
+.thing-bottom {
+  font-size: 30rpx;
+  color: #636363;
+  margin-top: 0rpx;
+}
+
+.thing-right {
+  width: 15%;
+  float: left; 
+  text-align: center;
+  line-height: 120rpx;
+  color: black;
+}
+
+.menthod {
   float: right;
 }

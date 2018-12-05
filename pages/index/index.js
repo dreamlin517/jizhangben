@@ -13,5 +13,10 @@ Page({
     wx.navigateTo({
       url: '../write/write' 
     })
+  },
+  handleGoTest: function () {
+    wx.navigateTo({
+      url: '../test/test'
+    })
   }
 })

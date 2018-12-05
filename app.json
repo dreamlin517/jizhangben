@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/write/write",
+    "pages/index/index",
+    
     "pages/test/test"
   ],
   "window": {
