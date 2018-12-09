@@ -11,20 +11,24 @@
   padding:35rpx; 
   text-align: center;
 }
-.one{
+
+.payment{
   height: 55rpx;
   display: inline-block;
   font-size: 40rpx;
   line-height: 55rpx;
-  background-color: rgb(240, 240, 10)
 }
-.two{
+.income{
   height: 55rpx;
   display: inline-block;
   font-size: 40rpx;
   line-height: 55rpx;
   background-color: white;
 }
+.hightlight {
+  background-color: rgb(240, 240, 10);
+}
+
 .money{
  padding: 0 15rpx;
   font-size: 45rpx;

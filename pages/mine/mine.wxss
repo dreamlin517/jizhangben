@@ -1,0 +1,27 @@
+/* pages/mine/mine.wxss */
+page{
+  height: 100vh;
+  padding-left: 60rpx;
+  padding-right: 60rpx;
+  box-sizing: border-box;
+}
+.user{
+  border: 1rpx solid blue;
+  height:100%;
+}
+.top{
+  border: 1rpx solid red;
+  height: 20vh;
+  line-height: 20vh;
+}
+.user-pic{
+  border: 1rpx solid red;
+  height: 100%;
+  width: 200rpx;
+  float: left;
+}
+.name{
+  font-weight: bold;
+  padding-left: 250rpx;
+  box-sizing: border-box;
+}

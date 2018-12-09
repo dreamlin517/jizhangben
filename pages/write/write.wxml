@@ -1,8 +1,8 @@
 <view class='write'>
   <view class='top'>
     <view class='option'>
-      <button class='one'>支出</button>
-      <button class='two'>收入</button>
+      <button class='payment {{type==="payment"? "hightlight" : ""}}' bindtap='handleSwitchType' data-hi='payment'>支出</button>
+      <button class='income {{type==="income"? "hightlight" : ""}}' bindtap='handleSwitchType' data-hi='income'>收入</button>
     </view>
     <view class='money'>
       <image class='eat-icon' src="../../images/icon_sanjiaoxing.png"></image>
@@ -11,47 +11,9 @@
     </view>
   </view>
   <view class='middle'>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
-    </view>
-    <view class='icons'>
-      <image class='select' src="../../images/icon_sanjiaoxing.png"></image>
+    <view class='icons' wx:for="{{typeList}}" wx:key="{{index}}">
+      <!-- <image class='select' src="../../images/icon_sanjiaoxing.png"></image> -->
+      <view > {{item}} </view>
     </view>
   </view>
   <view class='buttom'>

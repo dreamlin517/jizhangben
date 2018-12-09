@@ -1,0 +1,9 @@
+<!--pages/mine/mine.wxml-->
+<view class='user'>
+  <view class='top'>
+    <image class='user-pic' src="../../images/icon_sanjiaoxing.png"></image>
+    <view class='name'>大 橙 子</view>
+  </view>
+  <view class='middle'></view>
+  <view class='bottom'></view>
+</view>

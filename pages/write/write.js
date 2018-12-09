@@ -11,14 +11,40 @@ Page({
     ],
     iconType: [
       'success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'
-    ]
-  },
+    ],
+    paymentList: [
+      '买菜', '吃饭', '看电影', '买衣服'
+    ],
+    incomeList: [
+      '工资', '奖金', '红包', '股票'
+    ],
+    typeList: [
 
+    ],
+     type: 'payment'
+  },
+// 切换支出和收入
+  handleSwitchType: function (e) {
+    var type = e.currentTarget.dataset.hi
+    if (type === 'payment') {
+      this.setData({
+        typeList: this.data.paymentList,
+        type: 'payment'
+      })
+    } else {
+      this.setData({
+        typeList: this.data.incomeList,
+        type: 'income'
+      })
+    }
+},
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      typeList: this.data.paymentList
+    })
   },
 
   /**
