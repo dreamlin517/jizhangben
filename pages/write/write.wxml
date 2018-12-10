@@ -7,7 +7,7 @@
     <view class='money'>
       <image class='eat-icon' src="../../images/icon_sanjiaoxing.png"></image>
       <text class='chihe'>吃喝</text>
-      <text class='mon'>0.00</text>
+      <text class='mon'>{{ price }}</text>
     </view>
   </view>
   <view class='middle'>
@@ -23,21 +23,21 @@
     </view>
     <view class='bottom-bottom'>
       <view class='number'>
-        <view class='sever'>7</view>
-        <view class='sever'>8</view>
-        <view class='number-one'>9</view>
-        <view class='sever'>6</view>
-        <view class='sever'>5</view>
-        <view class='number-one'>4</view>
-        <view class='sever'>3</view>
-        <view class='sever'>2</view>
-        <view class='number-one'>1</view>
-        <view class='sever'>0</view>
-        <view class='sever'>.</view>
-        <view class='number-one'>清空</view>
+        <view class='sever' bindtap='handleNumber' data-number='7'>7</view>
+        <view class='sever' bindtap='handleNumber' data-number='8'>8</view>
+        <view class='number-one' bindtap='handleNumber' data-number='9'>9</view>
+        <view class='sever' bindtap='handleNumber' data-number='6'>6</view>
+        <view class='sever' bindtap='handleNumber' data-number='5'>5</view>
+        <view class='number-one' bindtap='handleNumber' data-number='4'>4</view>
+        <view class='sever' bindtap='handleNumber' data-number='3'>3</view>
+        <view class='sever' bindtap='handleNumber' data-number='2'>2</view>
+        <view class='number-one' bindtap='handleNumber' data-number='1'>1</view>
+        <view class='sever' bindtap='handleNumber' data-number='0'>0</view>
+        <view class='sever' bindtap='handleNumber' data-number='.'>.</view>
+        <view class='number-one' bindtap="handleNumber" data-number="empty">清空</view>
       </view>
       <view class='caozuo'>
-        <view class='delete'>删除</view>
+        <view class='delete' bindtap="handleNumber" data-number="del">删除</view>
         <view class='sure'>确定</view>
       </view>
     </view>

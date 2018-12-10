@@ -21,9 +21,11 @@ Page({
     typeList: [
 
     ],
-     type: 'payment'
+    type: 'payment',
+    price: '0'
   },
-// 切换支出和收入
+
+  // 切换支出和收入
   handleSwitchType: function (e) {
     var type = e.currentTarget.dataset.hi
     if (type === 'payment') {
@@ -37,13 +39,26 @@ Page({
         type: 'income'
       })
     }
-},
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  },
+  handleNumber: function (e) {
+    var number = e.currentTarget.dataset.number
+    var price = this.data.price
+
+    console.log(price)
+    console.log(number)
+    if (number === 'empty') {
+      price = '0'
+    } else if (number==='del') {
+      price = price.substring(0,price.length-1)
+    } else {
+      if (price==='0') {
+        price = number
+      } else {
+        price = price + number
+      }
+    }
     this.setData({
-      typeList: this.data.paymentList
+      price
     })
   },
 

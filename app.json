@@ -3,7 +3,9 @@
     "pages/write/write",
     "pages/index/index",
     "pages/mine/mine",
+    
     "pages/test/test"
+
   ],
   "window": {
     "backgroundColor": "#F3F3F3",
